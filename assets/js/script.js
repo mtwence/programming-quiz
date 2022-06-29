@@ -10,6 +10,36 @@ startButton.addEventListener("click", function () {
     startScreen.style.display = "none"
     quizQuestions.style.display = "block"
 } )
+
+// Question Object to use in conjjunction with fucntion to populate quizcard
+var questionBank = [
+    {
+      question: "JavaScript is a ___ -side programming language.",
+      choices: ["Client", "Server", "Both", "Neither"],
+      answer: "Both",
+    },
+    {
+        question: "How do you find the minimum of x and y using JavaScript",
+        choices:["min(x,y)", "Math.min(x,y)", "Math.min(xy)", "min(xy)"],
+        answer: "Math.min(x,y)"
+    },
+    {
+        question: "Which of the following will write the message “Hello Michael!” in an alert box?",
+        choices: ["alertBox(“Hello Michael!”)","alert(Hello Michael!);", " msgAlert(“Hello Michael!”);", "alert(“Hello Michael!”);"],
+        answer: "alert(“Hello DataFlair!”);"
+    }
+    {
+        question: "Which of the following is an event listener in JavaScript?",
+        choices: ["onclick", "blur", "click", "Click()"],
+        answer: "click"
+    }
+    {
+        question: "What is the correct JavaScript syntax to print “DataFlair” in the console?",
+        choices: "print(“DataFlair”);", "console.print(“DataFlair”);", "log.console(“DataFlair”);","console.log(“DataFlair”);",
+        answer: "console.log(“DataFlair”);"
+    }
+]
+
 // Function to play the actual Game
 
 // Function to change display of html cards 
