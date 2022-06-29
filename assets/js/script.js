@@ -4,6 +4,12 @@ var startScreen = document.querySelector("#startcard")
 var quizQuestions = document.querySelector("#quizcard")
 var quizOver = document.querySelector("#gameover")
 var highScore = document.querySelector("#highscore")
+
+// Start game event listener 
+startButton.addEventListener("click", function () {
+    startScreen.style.display = "none"
+    quizQuestions.style.display = "block"
+} )
 // Function to play the actual Game
 
 // Function to change display of html cards 
