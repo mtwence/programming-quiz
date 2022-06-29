@@ -1,4 +1,3 @@
-
 // Function to play the actual Game
 
 // Function to change display of html cards 
@@ -16,4 +15,3 @@
 // Function to change to highscore card
 
 // Function to add players highscore to localStorage table
-
