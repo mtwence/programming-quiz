@@ -1,0 +1,17 @@
+
+#startcard {
+    display: block;
+    
+}
+
+#quizcard {
+    display: none;
+}
+
+#gameover {
+    display: none;
+}
+
+#highscore {
+    display: none;
+}
