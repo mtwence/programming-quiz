@@ -1,3 +1,9 @@
+// variables linked to html using web api 
+var startButton = document.querySelector("#strtbtn")
+var startScreen = document.querySelector("#startcard")
+var quizQuestions = document.querySelector("#quizcard")
+var quizOver = document.querySelector("#gameover")
+var highScore = document.querySelector("#highscore")
 // Function to play the actual Game
 
 // Function to change display of html cards 
